@@ -32,6 +32,7 @@ public class Tamagochi {
             System.out.println("3.- Comer");
             System.out.println("4.- Limpiar");
             System.out.println("5.- Atacar");
+            System.out.println("6. Bailar");
             System.out.println("0.- Salir");
             System.out.print("Elige una opcion: ");
 
@@ -71,6 +72,7 @@ public class Tamagochi {
                     // si alguno se muere, paro el bucle con break
                     if (miMascota.estaMuerta() || dummy.estaMuerta()) {
                         break;
+
                     }
                 }
                 dummy.mostrar();

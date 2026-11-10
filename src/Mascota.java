@@ -105,4 +105,9 @@ class Mascota {
             animo = animo + 5;
         }
     }
-}
+
+    // Opcion 6: bailar
+    void bailar() {
+        energia = energia - 10; // al bailar pierde 10 de energia
+    }
+} // aqui se cierra la clase Mascota
